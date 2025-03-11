@@ -1,0 +1,48 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+}
+
+#fortune-container{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+#background-color-button{
+    background-color: #eb450e;
+    
+    
+}
+#font-color-button{
+    background-color: #198212;
+    
+}
+#border-color-button{
+    background-color: #6a8ada;
+    
+}
+#font-style-button{
+    background-color: #f0c208;
+    
+}
